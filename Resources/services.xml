@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<container xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns="http://symfony.com/schema/dic/services"
+           xsi:schemaLocation="http://symfony.com/schema/dic/services
+        http://symfony.com/schema/dic/services/services-1.0.xsd">
+    <services>
+
+        <!-- frontend listeners -->
+        <service id="ost_inhouse_trends_theme.listeners.controllers.frontend.pre" class="OstInhouseTrendsTheme\Listeners\Controllers\Frontend">
+            <argument type="string">%ost_inhouse_trends_theme.view_dir%</argument>
+            <tag name="shopware.event_listener" method="onPreDispatch" event="Enlight_Controller_Action_PreDispatch_Frontend" />
+        </service>
+
+        <service id="ost_inhouse_trends_theme.listeners.controllers.frontend.post" class="OstInhouseTrendsTheme\Listeners\Controllers\Frontend">
+            <argument type="string">%ost_inhouse_trends_theme.view_dir%</argument>
+            <tag name="shopware.event_listener" method="onPreDispatch" event="Enlight_Controller_Action_PostDispatchSecure_Frontend" />
+        </service>
+
+        <service id="ost_inhouse_trends_theme.listeners.controllers.widgets" class="OstInhouseTrendsTheme\Listeners\Controllers\Frontend">
+            <argument type="string">%ost_inhouse_trends_theme.view_dir%</argument>
+            <tag name="shopware.event_listener" method="onPreDispatch" event="Enlight_Controller_Action_PostDispatchSecure_Widgets" />
+        </service>
+
+    </services>
+</container>
