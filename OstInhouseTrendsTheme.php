@@ -11,6 +11,9 @@
  * 1.0.1
  * - fixed faulty directory name
  *
+ * 1.0.2
+ * - fixed company favicon
+ *
  * @package   OstInhouseTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

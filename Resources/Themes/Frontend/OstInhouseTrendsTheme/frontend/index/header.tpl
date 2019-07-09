@@ -11,7 +11,7 @@
 {block name='frontend_index_header_favicons'}
 
     {* logo *}
-    {assign var="favicon" value="frontend/_public/src/img/favicons/favicon.ico"}
+    {assign var="favicon" value="frontend/_public/src/img/favicons/favicon-57x57.png"}
 
     {* overwrite theme settings *}
     {$theme.favicon        = {$favicon}}
