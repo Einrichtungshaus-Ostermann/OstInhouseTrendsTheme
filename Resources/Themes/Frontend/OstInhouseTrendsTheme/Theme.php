@@ -54,7 +54,7 @@ class Theme extends \Shopware\Components\Theme
      *
      * @var bool
      */
-    protected $injectBeforePlugins = true;
+    protected $injectBeforePlugins = false;
 
     /**
      * ...

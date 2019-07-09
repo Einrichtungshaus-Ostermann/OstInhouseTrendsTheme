@@ -8,6 +8,9 @@
  * 1.0.0
  * - initial release
  *
+ * 1.0.1
+ * - fixed faulty directory name
+ *
  * @package   OstInhouseTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
