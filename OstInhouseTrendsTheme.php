@@ -14,6 +14,9 @@
  * 1.0.2
  * - fixed company favicon
  *
+ * 1.0.3
+ * - changed article-family slider to show 2 articles per column
+ *
  * @package   OstInhouseTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>

@@ -8,5 +8,5 @@
 
 {* overwrite the slider for multiple rows *}
 {block name="ost-article-family--slider"}
-    {include file="frontend/_includes/product_slider.tpl" articles=$ostArticleFamilyArticles articlesPerColumn=3}
+    {include file="frontend/_includes/product_slider.tpl" articles=$ostArticleFamilyArticles articlesPerColumn=2}
 {/block}
