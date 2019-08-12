@@ -17,6 +17,9 @@
  * 1.0.3
  * - changed article-family slider to show 2 articles per column
  *
+ * 1.0.4
+ * - fixed preview.png
+ *
  * @package   OstInhouseTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
