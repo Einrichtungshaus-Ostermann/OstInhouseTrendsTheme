@@ -4,9 +4,7 @@
 
 
 
-
-
 {* overwrite the slider for multiple rows *}
 {block name="ost-article-family--slider"}
-    {include file="frontend/_includes/product_slider.tpl" articles=$ostArticleFamilyArticles articlesPerColumn=2}
+    {include file="frontend/_includes/product_slider.tpl" articlesPerColumn=3 articles=$ostArticleFamilyArticles productBoxLayout="dvsn-article-family"}
 {/block}

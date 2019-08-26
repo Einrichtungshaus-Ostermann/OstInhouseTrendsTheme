@@ -20,6 +20,9 @@
  * 1.0.4
  * - fixed preview.png
  *
+ * 1.0.5
+ * - fixed theme for ost-article-family update
+ *
  * @package   OstInhouseTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
