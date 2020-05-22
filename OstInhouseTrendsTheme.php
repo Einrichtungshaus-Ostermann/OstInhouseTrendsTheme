@@ -23,6 +23,9 @@
  * 1.0.5
  * - fixed theme for ost-article-family update
  *
+ * 1.0.6
+ * - added template for exhibit-area-listing
+ *
  * @package   OstInhouseTrendsTheme
  *
  * @author    Eike Brandt-Warneke <e.brandt-warneke@ostermann.de>
